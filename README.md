@@ -1,4 +1,6 @@
 # ScanDrift  
+---
+![App Screenshot](https://raw.githubusercontent.com/hacker-hub8/ScanDrift/8cb679049ffa8ccf30986c1b14039dcc2b9b902b/img/ScanDrift.png)
 
 ░░░░░░███████ ]▄▄▄▄▄▄▄▄ 
 
@@ -11,7 +13,7 @@ ScanDrift is a simple and efficient port scanning tool designed to help you iden
 
 ---
 
-## Features  
+## Features  💾
 
 - Lightweight and fast port scanning.  
 - Specify the target IP address for scanning.  
@@ -20,17 +22,17 @@ ScanDrift is a simple and efficient port scanning tool designed to help you iden
 
 ---
 
-## Usage  
+## Usage 📡  
 
 To use ScanDrift, you must have Python installed. Clone this repository and run the script from the terminal.  
 
-### Command Syntax  
+### Command Syntax  💬
 
 ```bash
 python ScanDrift.py [-h] [-a ADDRESS] [-p PORTS [PORTS ...]]
 ```
 
-### Options  
+### Options  🚨
 
 - `-h`, `--help`: Displays the help menu with usage instructions.  
 - `-a ADDRESS`: Specify the target IP address.  
@@ -39,7 +41,7 @@ python ScanDrift.py [-h] [-a ADDRESS] [-p PORTS [PORTS ...]]
   - Example: `-p 22 80`  
 
 
-## Installation  
+## Installation  🛜
 
 1. Clone the repository:  
    ```bash
@@ -52,27 +54,40 @@ python ScanDrift.py [-h] [-a ADDRESS] [-p PORTS [PORTS ...]]
 3. Run the script with the desired arguments as shown in the examples.  
 
 ---
-## Examples  
+## Examples 🧑‍💻  
 
 1. **Scan all commonly used ports on a target:**  
    ```bash
    python ScanDrift.py -a 192.168.1.1
-   ```  
-
-2. **Scan specific ports on a target:**  
+   ```
+   
+2. **Scan target By website:**  
+   ```bash
+   python ScanDrift.py -a google.com
+   ```
+   
+3. **Scan All ports on a target:**  
+   ```bash
+   python ScanDrift.py -a 192.168.1.1
+   ```
+   
+4. **Scan specific ports on a target:**  
    ```bash
    python ScanDrift.py -a 192.168.1.1 -p 22 80 443
    ```  
 
-3. **Display help menu:**  
+5. **Display help menu:**  
    ```bash
    python ScanDrift.py -h
    ```  
 
 ---
+## [👉 All Usage Images 👈](https://raw.githubusercontent.com/hacker-hub8/ScanDrift/refs/heads/main/img/all%20ip%20scan.png)
 
+![App Screenshot](https://raw.githubusercontent.com/hacker-hub8/ScanDrift/refs/heads/main/img/all%20ip%20scan.png)
+![App Screenshot](https://raw.githubusercontent.com/hacker-hub8/ScanDrift/refs/heads/main/img/specific%20port%20scan.png)
 
-## Notes  
+## Notes  📝
 
 - Ensure that you have appropriate permissions to scan the target IP address. Unauthorized scanning can be illegal and unethical.  
 - Use this tool responsibly and only on networks you own or have explicit permission to test.
@@ -81,7 +96,7 @@ python ScanDrift.py [-h] [-a ADDRESS] [-p PORTS [PORTS ...]]
 
 ---
 
-## License  
+## License 🪪 
 
 ScanDrift is an open-source project licensed under the [MIT License](https://github.com/hacker-hub8/ScanDrift?tab=GPL-3.0-1-ov-file).  
 
