@@ -21,7 +21,7 @@ def print_banner():
                                                                          
      \t''' + BLUE + '[ Open Port Scanner & Exploiter upon Network by HackerHub8 ]' + ENDC + '''
      \t\t
-    ''' + GREEN + '░░░░░░███████ ]▄▄▄▄▄▄▄▄' + ENDC + '''   \t''' + BLUE + 'Version' + ENDC + ''': 1.0.2
+    ''' + GREEN + '░░░░░░███████ ]▄▄▄▄▄▄▄▄' + ENDC + '''   \t''' + BLUE + 'Version' + ENDC + ''': 1.0.3
     ''' + GREEN + ' ▂▄▅█████████▅▄▃▂      ' + ENDC + '''   \t''' + BLUE + 'Author' + ENDC + ''': HackerHub8
     ''' + GREEN + '[███████████████████]. ' + ENDC + '''
     ''' + GREEN + '◥⊙▲⊙▲⊙▲⊙▲⊙▲⊙▲⊙◤..   ' + ENDC + '''          
